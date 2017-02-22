@@ -162,19 +162,22 @@ I hate them so. Don't use badges.
 Serverless.com is comprised of 3 separate repositories
 
 - https://github.com/serverless/blog
-- https://github.com/serverless/serverless
+- https://github.com/serverless/serverless | Shoutout to [Phenomic.io](https://phenomic.io/)
 - https://github.com/serverless/site
 
 **Why multiple repos?**
 
 1. We wanted documentation about the framework to live in the serverless github repo for easy access
 2. We wanted our blog content to be easily portable to any static site generator separate from the implementation (site)
-3. `prebuild` npm script pulls the content together & processes them for site consumption
+3. `prebuild` npm script pulls the content together & processes them for site build
+
+A single repo is easier to manage but harder for people to find/edit/PR content.
 
 ---
 
 ### DEMO
 
+- Site structure
 - Serverless build process
 - [Validation](https://github.com/serverless/blog/blob/master/.travis.yml#L10)
 - [Editing Flow](https://serverless.com/framework/docs/providers/aws/cli-reference/deploy/)
