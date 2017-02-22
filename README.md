@@ -1,9 +1,9 @@
 # Advanced Markdown with David Wells
 
 ## Table of Contents
-<!-- ⛔️ AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText=Click to expand) -->
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Click to expand</summary>
+<summary>"Click to expand"</summary>
 - [Why markdown?](#why-markdown)
 - [Formatting tips](#formatting-tips)
   * [`left` alignment](#left-alignment)
@@ -15,6 +15,7 @@
   * [Why multiple repos?](#why-multiple-repos)
   * [DEMO](#demo)
 - [Other Resources](#other-resources)
+- [MD magic DEMO](#md-magic-demo)
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
@@ -69,21 +70,21 @@ This is the code you need to align images to the right:
 
 1. [gray-matter](https://www.npmjs.com/package/gray-matter)
 
-YAML front-matter is your friend. You can keep metadata in markdown files
+  YAML front-matter is your friend. You can keep metadata in markdown files
 
-```
-<!--
-title: Serverless Framework Documentation
-menuText: Docs
-layout: Doc
--->
-```
+  ```
+  <!--
+  title: Serverless Framework Documentation
+  menuText: Docs
+  layout: Doc
+  -->
+  ```
 
 2. [Remark](https://www.npmjs.com/package/remark)
 
   Useful for rendering markdown in HTML/React
 
-4. [Markdown Magic](https://github.com/DavidWells/markdown-magic)
+3. [Markdown Magic](https://github.com/DavidWells/markdown-magic)
 
 - Show Repo
 - Show Plugins

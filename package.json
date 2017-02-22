@@ -6,6 +6,7 @@
   "author": "DavidWells",
   "license": "MIT",
   "scripts": {
+    "demo": "node demo.js",
     "docs": "md-magic --path 'README.md' --ignore 'node_modules'"
   },
   "homepage": "https://github.com/DavidWells/advanced-markdown#readme",
