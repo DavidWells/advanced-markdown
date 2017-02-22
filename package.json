@@ -1,0 +1,15 @@
+{
+  "name": "advanced-markdown",
+  "version": "0.0.1",
+  "description": "Markdown presentation",
+  "main": "index.js",
+  "author": "DavidWells",
+  "license": "MIT",
+  "scripts": {
+    "docs": "md-magic --path 'README.md' --ignore 'node_modules'"
+  },
+  "homepage": "https://github.com/DavidWells/advanced-markdown#readme",
+  "devDependencies": {
+    "markdown-magic": "^0.1.13"
+  }
+}

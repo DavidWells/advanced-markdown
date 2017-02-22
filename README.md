@@ -1,5 +1,23 @@
 # Advanced Markdown with David Wells
 
+## Table of Contents
+<!-- ⛔️ AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText=Click to expand) -->
+<details>
+<summary>Click to expand</summary>
+- [Why markdown?](#why-markdown)
+- [Formatting tips](#formatting-tips)
+  * [`left` alignment](#left-alignment)
+  * [`right` alignment](#right-alignment)
+  * [`center` alignment example](#center-alignment-example)
+- [Useful packages](#useful-packages)
+- [Useful Utilities](#useful-utilities)
+- [Using multiple repos](#using-multiple-repos)
+  * [Why multiple repos?](#why-multiple-repos)
+  * [DEMO](#demo)
+- [Other Resources](#other-resources)
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Why markdown?
 
 Markdown is a universal doc format that is easy to write and easy to add to a version control system.
@@ -49,7 +67,7 @@ This is the code you need to align images to the right:
 
 ## Useful packages
 
-1. Graymatter
+1. [gray-matter](https://www.npmjs.com/package/gray-matter)
 
 YAML front-matter is your friend. You can keep metadata in markdown files
 
@@ -61,21 +79,31 @@ layout: Doc
 -->
 ```
 
-2. Remark
+2. [Remark](https://www.npmjs.com/package/remark)
 
-Rendering markdown in HTML https://github.com/wooorm/remark
+  Useful for rendering markdown in HTML/React
 
-3. Verb
+4. [Markdown Magic](https://github.com/DavidWells/markdown-magic)
 
-https://github.com/verbose/verb
+- Show Repo
+- Show Plugins
+- Show automatic doc generation
 
-4. Markdown Magic
+## Useful Utilities
 
-https://github.com/DavidWells/markdown-magic
+1. [Schedule Posts](https://github.com/serverless/post-scheduler) - Post scheduler for static sites
 
-5. Schedule Posts
+Show DEMO
 
-https://github.com/serverless/post-scheduler
+2. [Zero friction inline content editing](https://jekyll-anon.surge.sh/gods/2015/02/18/vesta.html)
+
+Show DEMO
+
+3. [markdown-preview atom plugin](https://atom.io/packages/markdown-preview)
+
+4. [Byword](https://bywordapp.com/) & [Typora](https://typora.io/)
+
+5. Stuck on WordPress? Try [easy-markdown plugin](https://github.com/DavidWells/easy-markdown)
 
 ## Using multiple repos
 
@@ -85,13 +113,22 @@ Serverless.com is comprised of 3 separate repositories
 - https://github.com/serverless/serverless
 - https://github.com/serverless/site
 
-### Why 3 repos?
+### Why multiple repos?
 
 1. We wanted documentation about the framework to live in the serverless github repo for easy access
 2. We wanted our blog content to be easily portable to any static site generator separate from the implementation (site)
 3. `prebuild` npm script pulls the content together & processes them for site consumption
 
+### DEMO
 
-# Other others
+- Serverless build process
+- Editing Flow
+- Github optimizations
+  - Link from top of each doc to live link on site
+  - use markdown magic =) to [auto generate tables](https://github.com/serverless/examples) etc
+  - Hide yaml frontmatter from github folks
 
-ACSII docs
+# Other Resources
+
+- [Verb](https://www.npmjs.com/package/verb) - Documentation generator for GitHub projects
+- ACSII docs - Markdown alternative
