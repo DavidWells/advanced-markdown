@@ -1,4 +1,6 @@
-# Advanced Markdown with David Wells
+# Advanced Markdown with [David Wells](https://twitter.com/DavidWells)
+
+[Slides -> github.com/DavidWells/advanced-markdown](https://github.com/DavidWells/advanced-markdown/)
 
 ## Table of Contents
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
@@ -11,11 +13,9 @@
   * [`center` alignment example](#center-alignment-example)
 - [Useful packages](#useful-packages)
 - [Useful Utilities](#useful-utilities)
-- [Using multiple repos](#using-multiple-repos)
-  * [Why multiple repos?](#why-multiple-repos)
+- [How Serverless uses markdown](#how-serverless-uses-markdown)
   * [DEMO](#demo)
 - [Other Resources](#other-resources)
-- [MD magic DEMO](#md-magic-demo)
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
@@ -75,11 +75,10 @@ This is the code you need to align images to the right:
   YAML front-matter is your friend. You can keep metadata in markdown files
 
   ```
-  <!--
   title: Serverless Framework Documentation
+  description: "Great F'in docs!"
   menuText: Docs
   layout: Doc
-  -->
   ```
 
 2. [Remark](https://www.npmjs.com/package/remark)
@@ -94,25 +93,29 @@ This is the code you need to align images to the right:
 
 ---
 
-## Useful Utilities
+## Useful utilities
 
 1. [Schedule Posts](https://github.com/serverless/post-scheduler) - Post scheduler for static sites
 
-Show DEMO
+  Show DEMO
 
 2. [Zero friction inline content editing](https://jekyll-anon.surge.sh/gods/2015/02/18/vesta.html)
 
-Show DEMO
+  Show DEMO
 
-3. [markdown-preview atom plugin](https://atom.io/packages/markdown-preview)
+3. [Byword](https://bywordapp.com/) & [Typora](https://typora.io/) - Good Editors
 
-4. [Byword](https://bywordapp.com/) & [Typora](https://typora.io/)
+4. [Monodraw](https://monodraw.helftone.com/) - Flow charts for days
+
+6. [Kap](https://getkap.co/) - Make gifs
+
+4. [IDE markdown preview](https://atom.io/packages/markdown-preview)
 
 5. Stuck on WordPress? Try [easy-markdown plugin](https://github.com/DavidWells/easy-markdown)
 
 ---
 
-## Using multiple repos
+## How Serverless uses markdown
 
 Serverless.com is comprised of 3 separate repositories
 
