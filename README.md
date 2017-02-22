@@ -28,6 +28,8 @@ Markdown is a universal doc format that is easy to write and easy to add to a ve
 - **No CMS lock in** - We can easily port to any static site generator
 - **It's just simple** - No user accounts to manage, no CMS software to upgrade, no plugins to install.
 
+---
+
 ## Formatting tips
 
 ### `left` alignment
@@ -86,9 +88,11 @@ This is the code you need to align images to the right:
 
 3. [Markdown Magic](https://github.com/DavidWells/markdown-magic)
 
-- Show Repo
-- Show Plugins
-- Show automatic doc generation
+  - [Repo](https://github.com/DavidWells/markdown-magic)
+  - [Plugins](https://github.com/DavidWells/markdown-magic#plugins)
+  - Show automatic doc generation. [Example 1](https://github.com/DavidWells/markdown-magic/blob/master/examples/generate-readme.js#L15-L23)   | [Example 2](https://github.com/serverless/examples/blob/master/generate-readme.js#L71-L87)
+
+---
 
 ## Useful Utilities
 
@@ -106,6 +110,8 @@ Show DEMO
 
 5. Stuck on WordPress? Try [easy-markdown plugin](https://github.com/DavidWells/easy-markdown)
 
+---
+
 ## Using multiple repos
 
 Serverless.com is comprised of 3 separate repositories
@@ -114,11 +120,13 @@ Serverless.com is comprised of 3 separate repositories
 - https://github.com/serverless/serverless
 - https://github.com/serverless/site
 
-### Why multiple repos?
+**Why multiple repos?**
 
 1. We wanted documentation about the framework to live in the serverless github repo for easy access
 2. We wanted our blog content to be easily portable to any static site generator separate from the implementation (site)
 3. `prebuild` npm script pulls the content together & processes them for site consumption
+
+---
 
 ### DEMO
 
