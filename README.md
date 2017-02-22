@@ -19,7 +19,7 @@
 - [Useful utilities](#useful-utilities)
 - [How Serverless uses markdown](#how-serverless-uses-markdown)
   * [DEMO](#demo)
-- [Other Resources](#other-resources)
+- [Other Markdown Resources](#other-markdown-resources)
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
@@ -187,7 +187,7 @@ A single repo is easier to manage but harder for people to find/edit/PR content.
   - [Hide yaml frontmatter from github folks](https://github.com/serverless/serverless/blame/master/docs/providers/aws/events/schedule.md#L1-L7)
   - consider linking everything to site
 
-# Other Resources
+## Other Markdown Resources
 
 - [Verb](https://www.npmjs.com/package/verb) - Documentation generator for GitHub projects
-- ACSII docs - Markdown alternative
+- [ACSII docs](http://asciidoctor.org/) - Markdown alternative
