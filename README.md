@@ -11,6 +11,7 @@
   * [`left` alignment](#left-alignment)
   * [`right` alignment](#right-alignment)
   * [`center` alignment example](#center-alignment-example)
+  * [`collapse` Sections](#collapse-sections)
 - [Useful packages](#useful-packages)
 - [Useful utilities](#useful-utilities)
 - [How Serverless uses markdown](#how-serverless-uses-markdown)
@@ -67,6 +68,22 @@ This is the code you need to align images to the right:
 ```
 
 ---
+
+### `collapse` Sections
+
+Collapsing large blocks of text can make your markdown much easier to digest
+
+<details>
+<summary>"Click to expand"</summary>
+this is hidden block
+</details>
+
+```
+<details>
+<summary>"Click to expand"</summary>
+this is hidden
+</details>
+```
 
 ## Useful packages
 
