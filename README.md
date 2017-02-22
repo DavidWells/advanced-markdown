@@ -12,7 +12,7 @@
   * [`right` alignment](#right-alignment)
   * [`center` alignment example](#center-alignment-example)
 - [Useful packages](#useful-packages)
-- [Useful Utilities](#useful-utilities)
+- [Useful utilities](#useful-utilities)
 - [How Serverless uses markdown](#how-serverless-uses-markdown)
   * [DEMO](#demo)
 - [Other Resources](#other-resources)
@@ -134,11 +134,13 @@ Serverless.com is comprised of 3 separate repositories
 ### DEMO
 
 - Serverless build process
-- Editing Flow
+- [Validation](https://github.com/serverless/blog/blob/master/.travis.yml#L10)
+- [Editing Flow](https://serverless.com/framework/docs/providers/aws/cli-reference/deploy/)
 - Github optimizations
-  - Link from top of each doc to live link on site
+  - [Link from top of each doc to live link on site](https://github.com/serverless/serverless/blob/master/docs/providers/aws/events/schedule.md)
   - use markdown magic =) to [auto generate tables](https://github.com/serverless/examples) etc
-  - Hide yaml frontmatter from github folks
+  - [Hide yaml frontmatter from github folks](https://github.com/serverless/serverless/blame/master/docs/providers/aws/events/schedule.md#L1-L7)
+  - consider linking everything to site
 
 # Other Resources
 
