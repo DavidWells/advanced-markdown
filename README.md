@@ -7,11 +7,14 @@
 <details>
 <summary>"Click to expand"</summary>
 - [Why markdown?](#why-markdown)
-- [Formatting tips](#formatting-tips)
+- [Markdown basics](#markdown-basics)
+- [Advanced Formatting tips](#advanced-formatting-tips)
   * [`left` alignment](#left-alignment)
   * [`right` alignment](#right-alignment)
   * [`center` alignment example](#center-alignment-example)
   * [`collapse` Sections](#collapse-sections)
+  * [`additional links`](#additional-links)
+  * [Badges](#badges)
 - [Useful packages](#useful-packages)
 - [Useful utilities](#useful-utilities)
 - [How Serverless uses markdown](#how-serverless-uses-markdown)
@@ -31,7 +34,11 @@ Markdown is a universal doc format that is easy to write and easy to add to a ve
 
 ---
 
-## Formatting tips
+## Markdown basics
+
+The basics of markdown can be found [here](https://guides.github.com/features/mastering-markdown/) & [here](https://daringfireball.net/projects/markdown/). Super easy!
+
+## Advanced Formatting tips
 
 ### `left` alignment
 
@@ -84,6 +91,24 @@ this is hidden block
 this is hidden
 </details>
 ```
+
+---
+
+### `additional links`
+
+[Website](http://www.serverless.com) • [Email Updates](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [Facebook](https://www.facebook.com/serverless) • [Contact Us](mailto:hello@serverless.com)
+
+```
+[Website](http://www.serverless.com) • [Email Updates](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [Facebook](https://www.facebook.com/serverless) • [Contact Us](mailto:hello@serverless.com)
+```
+
+---
+
+### Badges
+
+I hate them so. Don't use badges.
+
+---
 
 ## Useful packages
 
