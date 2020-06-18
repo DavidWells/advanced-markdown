@@ -6,7 +6,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
 <summary>"Click to expand"</summary>
- 
+
 - [Why markdown?](#why-markdown)
 - [Markdown basics](#markdown-basics)
 - [Advanced Formatting tips](#advanced-formatting-tips)
@@ -91,6 +91,28 @@ this is hidden block
 <details>
 <summary>"Click to expand"</summary>
 this is hidden
+</details>
+```
+
+Collapsing large blocks of Markdown text
+
+<details>
+<summary>To make sure markdown is rendered correctly in the collapsed section...</summary>
+
+ 1. Put an **empty line** after the `<summary>` block.
+ 2. *Insert your markdown syntax*
+ 3. Put an **empty line** before the `</details>` tag
+ 
+</details>
+
+```
+<details>
+<summary>To make sure markdown is rendered correctly in the collapsed section...</summary>
+
+ 1. Put an **empty line** after the `<summary>` block.
+ 2. *Insert your markdown syntax*
+ 3. Put an **empty line** before the `</details>` tag
+ 
 </details>
 ```
 
