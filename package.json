@@ -11,6 +11,6 @@
   },
   "homepage": "https://github.com/DavidWells/advanced-markdown#readme",
   "devDependencies": {
-    "markdown-magic": "^0.1.13"
+    "markdown-magic": "^2.3.2"
   }
 }
