@@ -152,7 +152,6 @@ For whatever [reason](https://twitter.com/alexdotjs/status/1421015442286596100) 
   │  ├─ global.css - #  Global CSS styles
   │  └─ Everything else... - # File based routing
   └─ src/utils - # Utility functions used in various places
-./scripts/* - # Scripts for building site, generating search indexes etc.
 ```
 
 ---
