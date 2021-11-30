@@ -78,6 +78,15 @@ This is the code you need to align images to the right:
 
 ---
 
+### light/dark mode images
+
+Tip via this [tweet](https://twitter.com/stefanjudis/status/1465775940034781186). Swap out images based on theme settings
+
+```
+![Logo](./dark.png#gh-dark-mode-only)
+![Logo](./light.png#gh-light-mode-only)
+```
+
 ### `collapse` Sections
 
 Collapsing large blocks of text can make your markdown much easier to digest
