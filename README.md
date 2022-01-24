@@ -87,7 +87,7 @@ Tip via this [tweet](https://twitter.com/stefanjudis/status/1465775940034781186)
 ![Logo](./light.png#gh-light-mode-only)
 ```
 
-# Tiny text in markdown
+### Tiny text in markdown
 
 Normal text here.
 
