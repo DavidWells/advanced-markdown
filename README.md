@@ -87,6 +87,18 @@ Tip via this [tweet](https://twitter.com/stefanjudis/status/1465775940034781186)
 ![Logo](./light.png#gh-light-mode-only)
 ```
 
+# Tiny text in markdown
+
+Normal text here.
+
+<sup><sub>Tiny text is here. Awwwww its so cuteeeeeeeeeee</sub></sup>
+
+**How?**
+
+```
+<sup><sub>Add your tiny text</sub></sup>
+```
+
 ### `collapse` Sections
 
 Collapsing large blocks of text can make your markdown much easier to digest
