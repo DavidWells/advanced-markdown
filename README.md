@@ -1,4 +1,4 @@
-# Advanced Markdown with [David Wells](https://twitter.com/DavidWells)
+# Advanced Markdown Guide
 
 [Slides -> github.com/DavidWells/advanced-markdown](https://github.com/DavidWells/advanced-markdown/)
 
