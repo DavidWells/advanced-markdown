@@ -87,7 +87,7 @@ Tip via this [tweet](https://twitter.com/stefanjudis/status/1465775940034781186)
 ![Logo](./light.png#gh-light-mode-only)
 ```
 
-## Using [footnotes](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
+### Using [footnotes](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
 
 Here is a simple footnote[^example]. With some additional text after it.
 
