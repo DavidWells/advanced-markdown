@@ -78,6 +78,18 @@ This is the code you need to align images to the right:
 
 ---
 
+### Adding video
+
+To add video you need to upload your video file and reference it inline
+
+```
+https://user-images.githubusercontent.com/1702215/158075475-c23004ab-827a-45ad-bdba-aee29ac5b582.mp4
+```
+
+Example:
+
+https://user-images.githubusercontent.com/1702215/158075475-c23004ab-827a-45ad-bdba-aee29ac5b582.mp4
+
 ### light/dark mode images
 
 Tip via this [tweet](https://twitter.com/stefanjudis/status/1465775940034781186). Swap out images based on theme settings
