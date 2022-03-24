@@ -292,3 +292,4 @@ A single repo is easier to manage but harder for people to find/edit/PR content.
 - [Verb](https://www.npmjs.com/package/verb) - Documentation generator for GitHub projects
 - [ACSII docs](http://asciidoctor.org/) - Markdown alternative
 - [Markdown parser performance comparison](https://github.com/Expensify/App/issues/3983#issue-942245008)
+- [Handy markdown templates](https://github.com/G3root/readme-generator/blob/9219c5ee638f3b8ff429c5b514d4d211661ae136/src/data/project-block-list.ts)
