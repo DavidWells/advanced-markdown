@@ -289,6 +289,7 @@ A single repo is easier to manage but harder for people to find/edit/PR content.
 
 ## Other Markdown Resources
 
+- [Markdown snippets](https://github.com/markdown-templates/markdown-snippets)
 - [Verb](https://www.npmjs.com/package/verb) - Documentation generator for GitHub projects
 - [ACSII docs](http://asciidoctor.org/) - Markdown alternative
 - [Markdown parser performance comparison](https://github.com/Expensify/App/issues/3983#issue-942245008)
