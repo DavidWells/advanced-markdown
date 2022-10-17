@@ -208,6 +208,18 @@ For whatever [reason](https://twitter.com/alexdotjs/status/1421015442286596100) 
   └─ src/utils - # Utility functions used in various places
 ```
 
+### Using CSS in Readme
+
+Use HTML/CSS in a readme via an SVG! [source](https://github.com/sindresorhus/css-in-readme-like-wat)
+
+<div align="center">
+	<br>
+	<a href="https://github.com/DavidWells/advanced-markdown/blob/master/svg-with-css.svg">
+		<img src="svg-with-css.svg" width="800" height="400" alt="Click to see the source">
+	</a>
+	<br>
+</div>
+
 ---
 
 ## Useful packages
