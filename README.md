@@ -213,12 +213,24 @@ For whatever [reason](https://twitter.com/alexdotjs/status/1421015442286596100) 
 Use HTML/CSS in a readme via an SVG! [source](https://github.com/sindresorhus/css-in-readme-like-wat)
 
 <div align="center">
-	<br>
-	<a href="https://github.com/DavidWells/advanced-markdown/blob/master/svg-with-css.svg">
-		<img src="svg-with-css.svg" width="800" height="400" alt="Click to see the source">
-	</a>
-	<br>
+  <br>
+  <a href="https://github.com/DavidWells/advanced-markdown/blob/master/svg-with-css.svg">
+     <img alt="Click to see the source" height="400" src="svg-with-css.svg" width="800" />
+  </a>
+  <br>
 </div>
+
+The above image is embedded like so:
+
+```html
+<div align="center">
+  <br/>
+  <a href="https://github.com/DavidWells/advanced-markdown/blob/master/svg-with-css.svg">
+    <img alt="Click to see the source" height="400" src="svg-with-css.svg" width="800" />
+  </a>
+  <br/>
+</div>
+```
 
 ---
 
