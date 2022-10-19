@@ -40,6 +40,14 @@ Markdown is a universal doc format that is easy to write and easy to add to a ve
 
 The basics of markdown can be found [here](https://guides.github.com/features/mastering-markdown/) & [here](https://daringfireball.net/projects/markdown/). Super easy!
 
+### Underline text
+
+<u>You can underline text with the `<u>` HTML tag</u>
+
+```
+<u>Underlined text</u>
+```
+
 ## Advanced Formatting tips
 
 ### `left` alignment
