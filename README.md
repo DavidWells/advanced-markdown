@@ -111,6 +111,14 @@ Here is a simple footnote[^1]. With some additional text after it.
 [^1]: My reference.
 ````
 
+### Strikethru text in markdown
+
+~~text with line through it~~
+
+```
+~~text with line through it~~
+```
+
 ### Tiny text in markdown
 
 Normal text here.
