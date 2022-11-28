@@ -171,6 +171,24 @@ Collapsing large blocks of Markdown text
 
 ---
 
+### Call outs
+
+Add call outs in [markdown](https://github.com/community/community/discussions/16925)
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+
+```
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+```
+
 ### `additional links`
 
 [Website](http://www.serverless.com) • [Email Updates](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [Facebook](https://www.facebook.com/serverless) • [Contact Us](mailto:hello@serverless.com)
