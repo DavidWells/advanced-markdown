@@ -40,6 +40,12 @@ Markdown is a universal doc format that is easy to write and easy to add to a ve
 
 The basics of markdown can be found [here](https://guides.github.com/features/mastering-markdown/) & [here](https://daringfireball.net/projects/markdown/). Super easy!
 
+### Image with alt & title
+
+```
+![Alt text](/path/to/img.jpg "image title")
+```
+
 ## Advanced Formatting tips
 
 ### `left` alignment
