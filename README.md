@@ -137,6 +137,36 @@ Normal text here.
 <sup><sub>Add your tiny text</sub></sup>
 ```
 
+### Text box
+
+Add a box with contents to markdown
+
+<div align="center">
+<table>
+<tbody>
+<td align="center">
+<img width="2000" height="0"><br>
+<sub>This is text in the box. Much wow</sub><br>
+<img width="2000" height="0">
+</td>
+</tbody>
+</table>
+</div>
+
+```
+<div align="center">
+<table>
+<tbody>
+<td align="center">
+<img width="2000" height="0"><br>
+<sub>This is text in the box. Much wow</sub><br>
+<img width="2000" height="0">
+</td>
+</tbody>
+</table>
+</div>
+```
+
 ### `collapse` Sections
 
 Collapsing large blocks of text can make your markdown much easier to digest
