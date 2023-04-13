@@ -84,6 +84,66 @@ This is the code you need to align images to the right:
 
 ---
 
+### Horizontal images no gap
+
+via [comment](https://gist.github.com/DavidWells/7d2e0e1bc78f4ac59a123ddf8b74932d?permalink_comment_id=4536101#gistcomment-4536101)
+
+```html
+<p>
+    <img src="https://picsum.photos/100/100" >
+    <img src="https://picsum.photos/100/100" >
+</p>
+```
+
+<p>
+    <img src="https://picsum.photos/100/100" >
+    <img src="https://picsum.photos/100/100" >
+</p>
+
+---
+
+### Horizontal images with gap
+
+With `hspace` property you can set horizontal (left and right) padding for an image
+
+```html
+<p>
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+</p>
+```
+
+<p>
+    <img src="https://picsum.photos/100/100" hspace="10" >
+    <img src="https://picsum.photos/100/100" hspace="10" >
+</p>
+
+---
+
+###  Vertical images with gap
+
+We also have a property "vspace", which does what it sounds like, add vertical spacing. But it doesn't seem to work on GitHub, unlike VSCode's buit in markdown viewer. So probably just add a `<p>` tag in between. 
+
+```html
+<p>
+    <img src="https://picsum.photos/500/100" >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+</p>
+```
+
+<p>
+    <img src="https://picsum.photos/500/100"  >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+    <p>
+    <img src="https://picsum.photos/500/100" >
+</p>
+
+---
+
 ### Adding video
 
 To add video you need to upload your video file and reference it inline
