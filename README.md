@@ -267,6 +267,20 @@ Collapsing large blocks of Markdown text
 
 ---
 
+## Mermaid Charts
+
+You can add fancy zoomable charts
+
+```mermaid
+%%{ init: { "er" : { "layoutDirection" : "LR" } } }%%
+erDiagram
+    User ||--o{ Vote : submits
+    Vote o{--|| Link : on
+    Link o{--|| Score : has
+```
+
+---
+
 ### Call outs
 
 Add call outs in [markdown](https://github.com/community/community/discussions/16925)
