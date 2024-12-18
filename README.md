@@ -279,6 +279,67 @@ erDiagram
     Link o{--|| Score : has
 ```
 
+Here's another cool example of a [sequence diagram](https://github.com/tom-barone/discontent/blob/431a6bd39216fd1f3018804a1dbe0967e22adfc5/docs/architecture.md#sequence-diagrams)
+
+```mermaid
+sequenceDiagram
+    actor Extension
+    participant API
+    participant Database
+    Extension->>API: POST /vote {link, vote, user_id}`
+		activate API
+		API->>API: Validate parameters
+    alt Invalid parameters
+        API->>Extension: Error: Invalid parameters
+    end
+		API->>Database: Check user history & settings. GetBatchItems(___________)
+		Note over API,Database: Voting disabled? GetItem(PK=settings, SK=settings)
+		Note over API,Database: Too many votes? GetItem(PK=date, SK=user_id)
+		Note over API,Database: User exists? User banned? GetItem(PK=user_id, SK=user_id)
+		Note over API,Database: Already voted? GetItem(PK=link, SK=user_id)
+		activate Database
+    alt Database Error
+        Database->>API: Database Error (connection / server...)
+        API->>Extension: Server Error
+    end
+		Database->>API: Return UserHistory & Settings
+		deactivate Database
+		API->>API: Check user history & Settings
+    alt Failed
+        API->>Extension: 403 Forbidden: Too many votes / banned / voting disabled
+    end
+		activate Database
+		API->>Database: Submit vote. BatchWriteItems(_________________)
+    alt If user does not exist
+		Note over API,Database: Put(PK=user_id, SK=user_id | not_banned,created_at)
+		Note over API,Database: <run [First time user voting on link]>
+		else First time user voting on link
+		Note over API,Database: Put(PK=link, SK=user_id | vote)
+		Note over API,Database: Update(PK=link, SK=link | count_of_votes++, sum_of_votes+=vote)
+		Note over API,Database: -- Add history
+		Note over API,Database: Update(PK=day, SK=link | count++, sum+=vote)
+		Note over API,Database: Update(PK=day, SK=user | count++, sum+=vote)
+    else If user already voted on link
+		Note over API,Database: Put(PK=link, SK=user_id | vote)
+		Note over API,Database: Update(PK=link, SK=link | sum_of_votes+=(-old_vote+new_vote))
+		Note over API,Database: -- Undo old history
+		Note over API,Database: Update(PK=old_day, SK=link | count--, sum-=old_vote)
+		Note over API,Database: Update(PK=old_day, SK=user | count--, sum-=old_vote)
+		Note over API,Database: -- Add history
+		Note over API,Database: Update(PK=day, SK=link | count++, sum+=vote)
+		Note over API,Database: Update(PK=day, SK=user | count++, sum+=vote)
+		end
+		activate Database
+    alt Database Error
+        Database->>API: Database Error (connection / server...)
+        API->>Extension: Server Error
+    end
+		Database->>API: Return success
+		API->>Extension: Return success
+    deactivate Database
+    deactivate API
+```
+
 ---
 
 ### Call outs
